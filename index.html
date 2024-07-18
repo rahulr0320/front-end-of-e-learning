@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOPPER</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="UTF-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" charset="UTF-8"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Open+Sans:wght@400;700&family=Poppins:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+  <body>
+
+    <!-- Hero section to introduce the website  -->
+    <section class="blocks block-gradient curve">
+      <div class="hero-content container">
+
+        <!-- Navigation bar -->
+        <nav class="nav collapsible collapsible-expanded">
+          <!-- <a href="index.html"><img class="logo" src="images/Logo.svg" alt="Image of the websites logo" srcset=""></a> -->
+          <div class="toggle"><i class="fa-solid fa-bars-staggered"></i></div>
+          <ul class="list nav-list collapsible-content">
+            <li class="nav-item current"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About</a></li>
+            <li class="nav-item"><a href="#">Contact</a></li>
+            
+          </ul>
+          <a href="#" class="nav-button collapsible-content">
+            <button class="btn btn-accent btn-callout">Login</button>
+          </a>
+        </nav>
+
+        <!-- Hero content area and banner-->
+        <h1 class="hero-title">Topper!<br>Start Build<br>Yourself!!</h1>
+        <img class="hero-image" src="images/banner-3.jpg" alt="Banner Image" srcset="">
+        <p class="hero-subtitle">
+          <em>We offer complimentary courses and tailored mentoring to empower teenagers in exploring their passions and maximizing their capabilities. <br> Join us to get started</em>
+        </p>
+        <button class="btn btn-accent btn-callout">Get Started!</button>
+
+        <!-- Social media contacts-->
+        <ul class="hero-contacts">
+      <a href="#">
+        <li>Facebook</li>
+      </a>
+      <a href="#">
+        <li>Twitter</li>
+      </a>
+      <a href="#">
+        <li>LinkedIn</li>
+      </a>
+      <a href="#">
+        <li>WhatsApp</li>
+      </a>
+        </ul>
+      </div>
+      <!-- Curved decoration of the hero section -->
+      <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 250">
+        <path fill="#fff" fill-opacity="1"
+          d="M0,128L60,154.7C120,181,240,235,360,224C480,213,600,139,720,128C840,117,960,171,1080,165.3C1200,160,1320,96,1380,64L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z">
+        </path>
+      </svg>
+    </section>
+
+    <!-- The Features section which describes the services we provide summarized -->
+    <section class="feature-section">
+
+      <!-- Small header tag -->
+      <div class="tag">
+        <span class="tag-title">Features</span>
+      </div>
+
+      <!-- Carousel -->
+      <div class="features owl-carousel container">
+
+        <!--Online Library-->
+        <div class="feature">
+          <div class="feature-icon">
+            <i class="fa-solid fa-book-atlas"></i>
+          </div>
+          <div class="feature-body">
+            <h2 class="feature-header">Online Library</h2>
+            
+          </div>
+        </div>
+        
+        <!--Free-->
+        <div class="feature">
+          <div class="feature-icon">
+            <i class="fa-solid fa-piggy-bank"></i>
+          </div>
+          <div class="feature-body">
+            <h2 class="feature-header">Free</h2>
+            
+          </div>
+        </div>
+        
+        <!--Download-->
+        <div class="feature">
+          <div class="feature-icon">
+            <i class="fa-solid fa-download"></i>
+          </div>
+          <div class="feature-body">
+            <h2 class="feature-header">Download</h2>
+           
+          </div>
+        </div>
+
+        <!--Test-papers-->
+        <div class="feature">
+          <div class="feature-icon">
+            <i class="fa-solid fa-file-circle-check"></i>
+          </div>
+          <div class="feature-body">
+            <h2 class="feature-header">Testpapers</h2>
+            
+          </div>
+        </div>
+
+        <!--updates-->
+        <div class="feature">
+          <div class="feature-icon">
+            <i class="fa-solid fa-file-circle-plus"></i>
+          </div>
+          <div class="feature-body">
+            <h2 class="feature-header">Latest Updates</h2>
+           
+          </div>
+        </div>
+
+        <!--User-->
+        <div class="feature">
+          <div class="feature-icon">
+            <i class="fa-solid fa-users-gear"></i>
+          </div>
+          <div class="feature-body">
+            <h2 class="feature-header">User Friendly</h2>
+           
+          </div>
+        </div>
+
+      </div>
+  
+    </section>
+
+    <!-- App showcase -->
+    <div class="app">
+      <div class="app-showcase container">
+
+        <!--overview of the app-->
+        <div>
+          <!--Changes the image depending on the screen size-->
+          <picture>
+            <source media="(max-width: 768px)" srcset="images/phone2.png">
+            <source media="(min-width: 769px)" srcset="images/phone1.png">
+            <img class="app-image" src="images/phone1.png" alt="">
+          </picture>
+          <h2 class="app-title">Coming Soon</h2>
+        </div>
+
+        <!--link to download app-->
+        <div class="download-app">
+          <p>To access our features anytime, download our mobile app</p>
+          <a href="#"><img class="store" src="images/Google-play.svg" alt="play store link"></a>
+          <a href="#"><img class="store" src="images/App-store.svg" alt="app store link"></a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- App's features -->
+    <section class="blocks block-dark curve">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 200">
+      <path fill="#fff" fill-opacity="1"
+        d="M0,160L80,165.3C160,171,320,181,480,160C640,139,800,85,960,85.3C1120,85,1280,139,1360,165.3L1440,192L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z">
+      </path>
+      </svg>
+      <div class="app-features block-content container">
+        <div class="grid grid-1x2">
+          <img class="mockup-image" src="images/photo-1.jpg" alt="">
+
+          <!-- App feature content -->
+          <div class="media">
+            <div class="media-header">
+              <div class="tag">
+                
+                <!-- Small header tag -->
+                <span class="tag-title">App Features</span>
+              </div>
+            </div>
+      
+            <div class="media-content">
+              <div class="media-icon">
+                <i class="fa-solid fa-book-atlas"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-title">User Authentication</h3>
+                <p>Secure login and registration for students, teachers, and administrators.</p>
+              </div>
+            </div>
+
+            <div class="media-content">
+              <div class="media-icon">
+                <i class="fa-solid fa-book-atlas"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-title">Course catalog and enrollment</h3>
+                <p>Browse and search courses by category, topic, or instructor and allow students to enroll in courses of their choice.</p>
+              </div>
+            </div>
+
+            <div class="media-content">
+              <div class="media-icon">
+                <i class="fa-solid fa-book-atlas"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-title">Video lectures</h3>
+                <p>High-quality video content for lectures and demonstrations.</p>
+              </div>
+            </div>
+
+            <div class="media-content">
+              <div class="media-icon">
+                <i class="fa-solid fa-book-atlas"></i>
+              </div>
+              <div class="media-body">
+                <h3 class="media-title">Feedback and Ratings,Support</h3>
+                <p>Provide a mechanism for students to rate courses and provide feedback.</p>
+              </div>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sponsors section -->
+    <!-- <section class="web-content">
+      <div class="blocks container">
+        <h2>Meet our Partners</h2>
+        <p class="text-width">We are in Collaboration with the following Institutes, Companies and Startups.</p>
+      </div>
+      <div class="sponsor-logos">
+        <img src="images/UB-logo.png" alt="">
+        <img src="images/botswana.png" alt="">
+        <img src="images/engenuity.jpg" alt="">
+        <img src="images/sapapane.jpg" alt="">
+        <img src="images/global-expo.png" alt="">
+      </div>
+      <button class="btn btn-accent">Learn More</button>
+    </section>
+
+    <section class="web-content">
+      <div class="blocks container">
+        <h2>Why we consider ourselves the best</h2>
+        <div class="guarantee grid grid-1x2">
+          <img  src="images/Guarantee.svg" alt="">
+          <div class="guarantee-content">
+              <h3 class="quote"><span class="quote quote-text">You can only become truly accomplished if you "Start Earning Early</span> - Maya Angelou</h3>
+            <p>We love our work, and for that we provide you with the best services to keep you satisfied.</p>
+            <button class="btn btn-accent">Learn More</button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="compatibility container web-content">
+      <h1>COMPATIBILITY</h1>
+    </section>
+
+    <!-- testimonial section -->
+    <section>
+      <div class="blocks">
+        <div class="container">
+          <h2>What Our Students Are Saying!!</h2>
+          <blockquote class="quote">
+            <!-- <img class="quote-image" src="images/man.jpg" alt=""> -->
+            <p class="quote-text text-width">I Started using this Platform when I was in Class 9th and by the time I reached Class 12th, I was well
+              aware of what I had to do thereafter. Currently I'm in First Year of College and am well versed with Stock-Trading for which I can't 
+              Thank "Topper-Learn
+              " Enough.  
+            </p>
+            <p class="quote-name">Shaji</p>
+            <p class="quote-occupation">Student</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer section -->
+    <footer class="blocks block-dark">
+      <div class="container grid footer-sections">
+    
+        <!--Footer contact us-->
+        <section class="footer-contact">
+          <h2 class="footer-title">Contact us</h2>
+          <input class="footer-input" type="text" placeholder="Enter Your Name">
+          <input class="footer-input" type="email" placeholder="Enter Your Email Address">
+          <textarea class="footer-input" cols="10" rows="5" placeholder="Write Your Message..."></textarea>
+          <a href="#"><button class="btn btn-contact btn-block">Send</button></a>
+        </section>
+    
+        <!--Footer links-->
+        <section class="footer-links">
+          <ul class="list list-footer">
+            <a href="#">
+              <li>Terms & Conditions</li>
+            </a>
+            <a href="#">
+              <li>Developers</li>
+            </a>
+            <a href="#">
+              <li>Company</li>
+            </a>
+            <a href="#">
+              <li>Security</li>
+            </a>
+            <a href="#">
+              <li>Support</li>
+            </a>
+            <a href="#">
+              <li>Legal</li>
+            </a>
+            <a href="#">
+              <li>App</li>
+            </a>
+          </ul>
+        </section>
+    
+        <!--Footer developer brand-->
+        <section class="footer-brand">
+          <a href="#">
+            <!-- <img class="footer-image" src="images/code.png" alt="Logo of company"> -->
+          </a>
+          <p>Email us :
+          <br>abc@topper-learn.in<br>
+            rst@topper-learn.in<br>
+            xyz@topper-learn.in
+          </p>
+          <p>Address
+          <br>xxxxxxxxxxxx,<br> Kerala <br>203201
+          </p>
+          <div class="contact-icons">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#"><i class="fa-solid fa-phone"></i></a>
+            <a href="#"><i class="fa-solid fa-location-dot"></i></a>
+          </div>
+        </section>
+      </div>
+      <section>
+        <p class="copyright">&copy 2024  Topper-Learn Pvt Ltd. All Rights Reserved</p>
+      </section>
+    </footer>
+
+    <!-- JavaScript files and links -->
+    <script>
+  $('.features').owlCarousel({
+    margin:30,
+    loop:true,
+    autoplay:true,
+    autoplayTimeout:2000,
+    autoplayHoverPause:true,
+    responsive:{
+      0:{
+        items:1
+      },
+      1000:{
+        items:2
+      },
+      1600: {
+        items:3
+      }
+    }
+  });
+    </script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/6f879d6c21.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </body>
+</html>
